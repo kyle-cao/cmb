@@ -1,0 +1,20 @@
+{
+    "name": "dong/cmb",
+    "description": "招商银行聚合支付",
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "goan/sm234": "^1.0",
+        "chenpkg/support": "^1.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Cmb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dong",
+            "email": "kyle_cao@163.com"
+        }
+    ]
+}
